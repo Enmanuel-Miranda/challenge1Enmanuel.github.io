@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<!-- el Lang estaba en EN, pero se le puso en en ES para que el idioma sea español  -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Inter:wght@200;300;400&display swap" rel="stylesheet"><!--tipo de letra de diseño-->
+
+    <link rel="stylesheet" href="/style.css">   <!--Referencia a la hoja de stule css-->
+
+    <title>Primer Challenge - Encriptador</title>
+    
+    
+
+    
+
+
+</head>
+
+<body>
+
+        <heater>
+            <!-- Ingresar el lgo de alura   -->
+            <img class="logo" src="Logo.svg" alt="logo">
+
+        </heater>
+
+        <main>
+            <!-- Un espacion `para que el usuario pueda ingresar el texto que desee  -->
+            <section class="section-n1">
+                <div class="divcontenedor-texto">
+                    <textarea placeholder="Ingrese el Texto aqui " class="cajadetexto"></textarea>
+                </div>
+
+                <div class="divalerta">
+                    <!--Seccion que srive de alerta en caso de que se agregue algun acento-->
+                    <img src="alerta.svg" alt="Alerta">
+                    <p> Solo letras minusculas y sin acentos</p>
+                </div>
+
+                <div class="divcontenedor-boton">
+                    <!-- Son los botones que vamos a utilizar  -->
+                    <input type="button" class="btn-encriptar" value="Encriptar">
+                    <input type="button" class="btn-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+
+
+            <section class="seccion-n2">
+
+                <div class="imagendoll">
+                    <!-- Ingresar la iamgen del muñeco  -->
+                    <img src="Muñeco.svg " alt ="muñeco">
+                </div>
+
+                <div class="divcontenedor-parrafo">
+                    <!-- Espacio que avisa que no hay emnsaje pra poder encriptar o desencriptar  -->
+                    <h3>Ningun mensaje fue <br>encontrado</h3>
+                    <p>Ingrese el texto a encriptar o <br>desencriptar</p>
+                </div>
+
+                <div class="divcontenedor-copiar">
+                    <!-- Espacio que permite coipiar el texto  -->
+                    <input type="button" class="btn-copiar" value="Copiar">
+                </div>
+
+                <div class="divcontenedor-resultado">
+                    <!--  Es el espcaio donde se va a aguardar el registro -->
+                    <p class="texto-resultados">hoola mundo</p>
+                </div>
+
+            </section>
+        </main>
+
+        <script src="script.js"> </script>
+
+ 
+    
+</body>
+
+
+</html>
+
+
+
+
+
+
+
